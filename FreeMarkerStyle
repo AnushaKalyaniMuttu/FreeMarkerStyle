@@ -1,0 +1,7 @@
+<#assign x=10>
+<#if x == 0>
+    <#assign x=11>
+<#else>
+    <#assign x=12>
+</#if>
+x is ${x}
